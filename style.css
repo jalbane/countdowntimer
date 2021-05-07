@@ -1,0 +1,19 @@
+form{
+	width: 100%;
+	text-align: center;
+}
+
+input, button{
+	display: block;
+	margin:auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+	justify-content: center;
+}
+
+body,html{
+	width: 100%;
+	text-align: center;
+	justify-content: center;
+}
