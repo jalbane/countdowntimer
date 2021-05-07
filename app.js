@@ -71,4 +71,4 @@
 		y = y * 60 * 1000	//coverting the number of seconds into ms
 		return x + y //returning the additional time to add to the countdown in ms.
 	}
- })()
+ }())
