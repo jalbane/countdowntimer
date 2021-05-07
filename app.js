@@ -1,6 +1,6 @@
 (function init(){
 	const form = document.getElementById('inputField');
-	form.addEventListener("submit",  e => {handleSubmit(e)}, {once: true});
+	form.addEventListener("submit",  e => {handleSubmit(e)}, {once: true})
 
 	function handleSubmit(e){
 		//const eventName = document.getElementById('eventName');	
