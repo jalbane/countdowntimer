@@ -8,7 +8,7 @@
 		const eventTargetDate = Date.parse(eventDate.value);
 		e.preventDefault();
 		//form.style.display = 'none'
-		document.getElementById('countdownDisplay').style.display = "block"
+		document.getElementById('countdownDisplay').style.display = "block";
 
 		let startCountdown = setInterval(processEvent, 1000, eventTargetDate, stopCountdown);
 	}
